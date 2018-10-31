@@ -638,7 +638,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_internal_transaction/index.html.eex:72
-#: lib/block_scout_web/templates/address_transaction/index.html.eex:83
+#: lib/block_scout_web/templates/address_transaction/index.html.eex:93
 #: lib/block_scout_web/templates/address_validation/index.html.eex:117
 #: lib/block_scout_web/templates/block/index.html.eex:20
 #: lib/block_scout_web/templates/block_transaction/index.html.eex:50
@@ -858,7 +858,7 @@ msgid "There are no tokens."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address_transaction/index.html.eex:77
+#: lib/block_scout_web/templates/address_transaction/index.html.eex:87
 msgid "There are no transactions for this address."
 msgstr ""
 
@@ -1210,4 +1210,9 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/views/internal_transaction_view.ex:32
 msgid "Suicide"
+msgstr ""
+
+#, elixir-format
+#: lib/block_scout_web/templates/address_transaction/index.html.eex:82
+msgid "Loading"
 msgstr ""
