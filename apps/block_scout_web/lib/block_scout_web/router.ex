@@ -38,7 +38,11 @@ defmodule BlockScoutWeb.Router do
     })
   end
 
-  forward("/graphql", Absinthe.Plug, schema: BlockScoutWeb.Schema)
+  forward("/graphql", Absinthe.Plug,
+    schema: BlockScoutWeb.Schema,
+    analyze_complexity: true,
+    max_complexity: 50
+  )
 
   forward("/graphiql", Absinthe.Plug.GraphiQL,
     schema: BlockScoutWeb.Schema,
